@@ -4,7 +4,7 @@
   "description": "boilerplate for sass project",
   "main": "index.js",
   "scripts": {
-    "start":"gulp"
+    "start": "gulp"
   },
   "author": "SRmdhon",
   "license": "ISC",
@@ -12,5 +12,9 @@
     "browser-sync": "^2.24.7",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1"
   }
 }
