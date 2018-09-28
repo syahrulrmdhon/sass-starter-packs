@@ -37,9 +37,12 @@ it will generate the production folder with the minify css and javascript files 
 ### A typical top-level directory layout
 
     .
-    ├── build                   # Compiled files
+    ├── production                   # Compiled files
        |── js                   # .min.js
        |── css                  # .min.css
        .html
     ├── src                     # Source files (alternatively `lib` or `app`)
+       |── js                   # .js
+       |── sass                 # .scss
+       .html
 
