@@ -1,4 +1,4 @@
-# Exchange Rate App
+# Sass Starter Packs
 This is starter pack for / template for sass project with task runner gulp.js
 for more info about gulp.js , go to https://gulpjs.com/
 
@@ -37,7 +37,7 @@ it will generate the production folder with the minify css and javascript files 
 ### A typical top-level directory layout
 
     .
-    ├── production                   # Compiled files
+    ├── production              # Compiled files
        |── js                   # .min.js
        |── css                  # .min.css
        .html
