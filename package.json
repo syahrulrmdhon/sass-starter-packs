@@ -1,0 +1,16 @@
+{
+  "name": "sass-satrter-packs",
+  "version": "1.0.0",
+  "description": "boilerplate for sass project",
+  "main": "index.js",
+  "scripts": {
+    "start":"gulp"
+  },
+  "author": "SRmdhon",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
