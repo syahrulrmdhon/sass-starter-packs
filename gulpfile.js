@@ -48,7 +48,7 @@ gulp.task('serve',['sass','min-sass','minify','copyHtml'],function(){
     });
     gulp.watch(['src/sass/*.scss'],['sass','min-sass']);
     gulp.watch(['src/js/*.js'],['minify']);
-    gulp.watch(['src/*.html']).on('change',browserSync.reload);
+    gulp.watch(['src/*.html'],['copyHtml']).on('change',browserSync.reload);
 });
 
 //Default task
